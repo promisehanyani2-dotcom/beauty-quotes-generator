@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -13,7 +14,7 @@
     </header>
 
     <main>
-      <form>
+      <form id="quote-generator-form">
         <input
           type="text"
           placeholder="Enter beauty quotes type"
@@ -24,7 +25,7 @@
         />
         <input type="submit" class="button" />
       </form>
-      <div class="quote">
+      <div class="quote" id="quote">
         The quotes will be generated here
         <br />
         "Wear your scars like stardust"
