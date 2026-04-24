@@ -1,0 +1,68 @@
+body {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  margin: 0;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Arial", sans-serif;
+}
+.background {
+  margin: 120px auto;
+  width: 600px;
+}
+h1 {
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 900;
+}
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+form {
+  padding: 30px;
+  background: white;
+  margin-bottom: 30px;
+  display: flex;
+  border: 1.5px solid #d670bb;
+  border-radius: 8px;
+  box-shadow: 0 10px 12px rgba(10, 15, 25, 0.6);
+}
+.beauty-type {
+  width: 75%;
+  padding: 10px;
+  font-size: 28px;
+  border: 1.5px solid #1ccce3;
+  border-radius: 20px;
+  line-height: 20px;
+}
+.button {
+  width: 25%;
+  background: #1ccce3;
+  color: white;
+  font-size: 28px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.quote {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  line-height: 2;
+  font-weight: 900;
+}
+footer {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 16px;
+}
