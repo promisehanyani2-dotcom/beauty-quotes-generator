@@ -29,13 +29,21 @@ header {
   margin-bottom: 50px;
 }
 form {
-  padding: 30px;
-  background: white;
-  margin-bottom: 30px;
   display: flex;
   border: 1.5px solid #d670bb;
-  border-radius: 8px;
+}
+.form-container {
+  background: white;
+  margin-bottom: 30px;
   box-shadow: 0 10px 12px rgba(10, 15, 25, 0.6);
+  border-radius: 8px;
+  padding: 15px 30px;
+}
+.example {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 5px;
+  line-height: 1.5;
 }
 .beauty-type {
   width: 75%;

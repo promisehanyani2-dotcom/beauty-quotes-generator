@@ -1,11 +1,10 @@
 function showQuote(response) {
-  (console.log("quote generated"),
-    new Typewriter("#quote", {
-      strings: response.data.answer,
-      autoStart: true,
-      delay: 25,
-      cursor: "",
-    }));
+  new Typewriter("#quote", {
+    strings: response.data.answer,
+    autoStart: true,
+    delay: 25,
+    cursor: "",
+  });
 }
 
 function generateQuote(event) {
@@ -17,9 +16,8 @@ function generateQuote(event) {
   let context = "The quote should be short, inspiring and uplifting.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  console.log("Generating quote...");
-  console.log(`context: ${context}`);
-  console.log(`prompt: ${prompt}`);
+  let quoteElement2 = document.querySelector("#quote");
+  quoteElement2.innerHTML = `Generating quote about ${quoteElement.value}🌈...`;
 
   axios.get(apiUrl).then(showQuote);
 }
